@@ -1,0 +1,4 @@
+- Create one folder in this directory. 
+- "cmake ../" command in the directory created.
+- After that run "make"
+- We can see the executable with the name mention in CMakeLists.txt
