@@ -6,3 +6,11 @@ project(HelloWorld)
 
 add_executable(basic HelloWorld.cpp)
 # add executable target with name "basic" with *.cpp source
+
+set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/Build)
+# set the CMAKE_INSTALL_PREFIX, DESTINATION path is relative to ${CMAKE_INSTALL_PREFIX}
+
+if (UNIX)
+  install(TARGETS basic DESTINATION bin)
+  # install path
+endif()

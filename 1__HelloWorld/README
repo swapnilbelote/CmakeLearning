@@ -1,4 +1,5 @@
-- Create one folder in this directory. 
+- Create one folder in this directory, "Build".
 - "cmake ../" command in the directory created.
 - After that run "make"
-- We can see the executable with the name mention in CMakeLists.txt
+- To install the binary, "make install"
+- See the "basic" executable in Build/bin folder
