@@ -12,5 +12,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/Build)
 
 if (UNIX)
   install(TARGETS basic DESTINATION bin)
+  # DESTINATION path is relative to CMAKE_INSTALL_PREFIX
+  # Need to set the CMAKE_INSTALL_PREFIX to get the DESTINATION path
   # install path
 endif()
