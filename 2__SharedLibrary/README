@@ -1,0 +1,5 @@
+- Create one folder in this directory, "Build".
+- "cmake ../" command in the directory created.
+- After that run "make"
+- See the "Main" executable in Build folder along with libMySharedLib.so
+
